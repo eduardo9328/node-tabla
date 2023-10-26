@@ -1,0 +1,21 @@
+{
+  "name": "03-bases-node",
+  "version": "0.0.1",
+  "description": "esto es una tabla de multiplicar",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "base3": "node app --base=3",
+    "base4": "node app --base=4",
+    "base5": "node app --base=5"
+  },
+  "author": "Eduardo romero",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^16.2.0"
+  }
+}
